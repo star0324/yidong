@@ -1,0 +1,297 @@
+/*
+* @Author: Administrator
+* @Date:   2018-02-05 14:12:08
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-02-07 09:31:34
+*/
+body{
+	height: 1334px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.container{
+	margin: 0 auto;
+	width: 7.02rem;
+	/* border: 0.01rem solid blue; */
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/* 头部 */
+.header{
+	width: 7.5rem;
+	/* 窗口定位 */
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 1rem;
+	/* 叠放顺序 */
+	z-index: 10;
+
+	background:url('../images/header.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header-left{
+	width: 0.37rem;
+	height: 0.32rem;
+	/* background-color: yellow; */
+	margin-top: 0.36rem ;
+}
+.header-left li{
+	width: 0.37rem;
+	border-top: 0.04rem solid white;
+}
+.hl2{
+	margin: 0.1rem auto;
+}
+.header-center{
+	width: 6.15rem;
+	height: 1rem;
+	background: url('../images/banner3_03.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:  0.94rem 0.72rem;
+}
+.header-right{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: url('../images/banner1.png');
+	background-size: 0.5rem 0.5rem;
+	margin-top: 0.26rem;
+}
+
+/* banner */
+.banner{
+	width: 7.5rem;
+	height: 4.33rem;
+	margin-top: 1.12rem;
+}
+.banner img{
+	width: 100%;
+}
+
+/* 热搜 */
+.hot{
+	width: 7.5rem;
+	height: 4.75rem;
+	background-color: #eeeeec;
+}
+.hot-top{
+	width: 100%;
+	height: 1.1rem;
+	background: url('../images/hot_03.png');
+	background-size: 7.5rem 1.1rem;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.hot-center{
+	height: 2.63rem;
+}
+.hot-center>div{
+	width: 2.17rem;
+	height: 2.88rem;
+	background-color: yellow;
+	float: left;
+	margin-left: 0.24rem;
+	border-radius: 0.05rem;
+}
+.hot-center .hot-c-l{
+	margin-left: 0;
+}
+.hot-center>div img{
+	width: 100%;
+}
+.hot-center>div p{
+	font-size: 0.18rem;
+	margin-left: 0.1rem;
+	margin-top: -0.15rem;
+}
+.hot-center>div i{
+	width: 0.26rem;
+	height: 0.26rem;
+	display: block;
+	background:url('../images/jiahao_03.png');
+	background-size: 0.26rem 0.26rem;
+	margin-right: 0.1rem;
+	margin-top: -0.13rem;
+}
+.hot-foot{
+	/* 清除浮动 */
+	/* clear: both; */
+	width: 7.5rem;
+	height: 1.02rem;
+	background-color: #0fcbcd;	
+}
+/* 精选潮牌 */
+.fashion{
+	width: 7.5rem;
+	height: 2.6rem;
+	background-color:#eeeeec; 
+}
+.fash-top{
+	width: 100%;
+	height: 1rem;
+	/* background-color: red; */
+}
+.img1{
+	width: 2.4rem;
+	margin-top: 0.2rem;
+}
+.img2{
+	width: 0.38rem;
+	margin-top: 0.25rem;
+}
+.fash-foot{
+	width: 100%;
+	height: 1.3rem;
+	background-color: yellow;
+	background-color: #f57d3e;
+	border-radius: 0.05rem;
+	/* 设置阴影 */
+	box-shadow: 0.01rem  0.01rem 0.50rem 0.10rem rgba(0,0,0,0.2) inset;
+}
+.fash-foot li{
+	width: 0.8rem;
+	height: 0.8rem;
+	background-color: red;
+	float: left;
+	margin-left: 0.33rem;
+	background: url('../images/yuan_12.png');
+	background-size:0.78rem 0.78rem;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.fash-foot li:nth-child(1){
+	margin-left: 0;
+}
+.fash-foot ul{
+	width: 6.5rem;
+	height: 0.8rem;
+	margin: 0 auto;
+	/* border: 0.01rem solid black; */
+	padding-top:0.22rem ;
+
+}
+
+/* 精选内容 */
+.content{
+	height: 3.98rem;
+	margin-top: 0.12rem;
+}
+.content div{
+	width: 2.33rem;
+	height: 1.89rem;
+	/* background: yellow; */
+	float: left;
+	overflow: hidden;
+}
+.content div img{
+	width: 2.33rem;
+}
+
+/* 作品 */
+.work{
+	width: 7.5rem;
+	height: 22.15rem;
+	background: #eeeeec;
+	padding-top: 0.2rem;
+	margin-bottom: 0.85rem;
+}
+.work-top{
+	line-height: 0.62rem;
+	height: 0.62rem;
+	margin-bottom: 0.24rem;
+	border-radius: 0.05rem;
+	background: url('../images/hong_03.png');
+	background-size: 7.02rem 0.62rem;
+}
+.circle{
+	border-radius: 50%;
+	width: 0.1rem;
+	height: 0.1rem;
+	background: white;
+	/* margin-top: 0.25rem; */
+	margin: 0.25rem 0.21rem;
+}
+.con-center{
+	width: 5.58rem;
+	text-align: center;
+	font-size: 0.36rem;
+	color: white;
+}
+/* 并列选择器 */
+.w-f-l,.w-f-r{
+	width: 3.39rem;
+	height: 21rem;
+	background: red;
+}
+/*
+   所有
+   class
+   后代
+   父子
+   伪类
+   	   :nth-child()
+   	   :hover
+   属性选择器
+   		a[href="#"]
+   组合选择器（并列选择） ,
+ */ 
+
+.w-f-h{
+	height: 6.78rem;
+	width: 100%;
+	background: yellow;
+	margin-bottom: 0.24rem;	
+}
+.w-f-h1{
+	height: 3.92rem;
+	width: 100%;
+	background: blue;
+	margin-bottom: 0.24rem;
+}
+.work-foot>div>div{
+	border-radius: 0.05rem;	
+}
+.w-f-h2{
+	width: 100%;
+	height: 9.65rem;
+	background: pink;
+}
+
+/* foot */
+.foot{
+	width: 7.5rem;
+	height: 1.06rem;
+	background: #323141;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+.foot li{
+	width: 25%;
+	float: left;
+	height: 1.06rem;
+	/* background: url('../images/end_04.png'); */
+	background-position: center;
+	background-size: 2.5rem 1.2rem;
+}
+
+.iconfont{
+	font-size: 0.8rem;
+	color: white;
+}
